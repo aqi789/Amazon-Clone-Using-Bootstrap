@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="C:\Users\user\Desktop\softroniics\Bootstrap\Amazon\favicon amazon.jpeg" type="image/jpeg">
+  <link rel="shortcut icon" href="C:\Users\user\Desktop\softroniics\Bootstrap\Amazon\favicon amazon.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+    <title>Amazon</title>
+</head>
+<body>
+    <header>
+        <div id="top-nav"  class="d-flex justify-content-around align-items-center">
+            <div>
+              <a href="index.html">
+                <img src="amazon logo.png" alt="" width="60px">
+              </a>
+            </div>
+            <div class="d-flex align-items-center">  
+            <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle text-light" data-toggle="dropdown">All</button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Link 1</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                  <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </div>
+            <div>
+                <form class="form-inline" action="/action_page.php">
+                    <input class="form-control mr-sm-2 mr-0" type="text" placeholder="Search">
+                    <button class="btn btn-warning p-1 m-1" type="submit"><i class="fa fa-search" style="font-size:16px; color: black;"></i></button>
+            </form>
+            </div>
+            <div class="dropdown">
+                <button type="button" class="btn dropdown-toggle text-light" data-toggle="dropdown">EN<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40" preserveAspectRatio="xMidYMid meet" version="1.0"><defs><clipPath id="id1"><path d="M 2.371094 18 L 27.773438 18 L 27.773438 23.921875 L 2.371094 23.921875 Z M 2.371094 18 " clip-rule="nonzero"/></clipPath><clipPath id="id2"><path d="M 2.371094 10 L 27.773438 10 L 27.773438 19 L 2.371094 19 Z M 2.371094 10 " clip-rule="nonzero"/></clipPath><clipPath id="id3"><path d="M 2.371094 5.050781 L 27.773438 5.050781 L 27.773438 11 L 2.371094 11 Z M 2.371094 5.050781 " clip-rule="nonzero"/></clipPath></defs><g clip-path="url(#id1)"><path fill="rgb(7.449341%, 53.329468%, 3.138733%)" d="M 2.375 21.019531 C 2.375 22.625 3.640625 23.921875 5.199219 23.921875 L 24.945312 23.921875 C 26.503906 23.921875 27.769531 22.625 27.769531 21.019531 L 27.769531 18.117188 L 2.375 18.117188 Z M 2.375 21.019531 " fill-opacity="1" fill-rule="nonzero"/></g><g clip-path="url(#id2)"><path fill="rgb(93.328857%, 93.328857%, 93.328857%)" d="M 2.375 10.859375 L 27.769531 10.859375 L 27.769531 18.117188 L 2.375 18.117188 Z M 2.375 10.859375 " fill-opacity="1" fill-rule="nonzero"/></g><g clip-path="url(#id3)"><path fill="rgb(100%, 59.999084%, 19.999695%)" d="M 27.769531 10.859375 L 27.769531 7.957031 C 27.769531 6.351562 26.503906 5.050781 24.945312 5.050781 L 5.199219 5.050781 C 3.640625 5.050781 2.375 6.351562 2.375 7.957031 L 2.375 10.859375 Z M 27.769531 10.859375 " fill-opacity="1" fill-rule="nonzero"/></g><path fill="rgb(0%, 0%, 50.19989%)" d="M 17.894531 14.488281 C 17.894531 14.871094 17.820312 15.242188 17.679688 15.597656 C 17.535156 15.953125 17.332031 16.269531 17.066406 16.539062 C 16.804688 16.8125 16.496094 17.023438 16.152344 17.167969 C 15.804688 17.316406 15.445312 17.390625 15.074219 17.390625 C 14.699219 17.390625 14.339844 17.316406 13.992188 17.167969 C 13.648438 17.023438 13.34375 16.8125 13.078125 16.539062 C 12.8125 16.269531 12.609375 15.953125 12.464844 15.597656 C 12.324219 15.242188 12.25 14.871094 12.25 14.488281 C 12.25 14.101562 12.324219 13.730469 12.464844 13.375 C 12.609375 13.019531 12.8125 12.707031 13.078125 12.433594 C 13.34375 12.164062 13.648438 11.953125 13.992188 11.804688 C 14.339844 11.65625 14.699219 11.585938 15.074219 11.585938 C 15.445312 11.585938 15.804688 11.65625 16.152344 11.804688 C 16.496094 11.953125 16.804688 12.164062 17.066406 12.433594 C 17.332031 12.707031 17.535156 13.019531 17.679688 13.375 C 17.820312 13.730469 17.894531 14.101562 17.894531 14.488281 Z M 17.894531 14.488281 " fill-opacity="1" fill-rule="nonzero"/><path fill="rgb(93.328857%, 93.328857%, 93.328857%)" d="M 17.1875 14.488281 C 17.1875 14.777344 17.136719 15.054688 17.027344 15.320312 C 16.921875 15.585938 16.765625 15.824219 16.570312 16.027344 C 16.371094 16.230469 16.140625 16.390625 15.882812 16.5 C 15.621094 16.609375 15.351562 16.664062 15.074219 16.664062 C 14.792969 16.664062 14.523438 16.609375 14.261719 16.5 C 14.003906 16.390625 13.773438 16.230469 13.578125 16.027344 C 13.378906 15.824219 13.226562 15.585938 13.117188 15.320312 C 13.011719 15.054688 12.957031 14.777344 12.957031 14.488281 C 12.957031 14.199219 13.011719 13.921875 13.117188 13.65625 C 13.226562 13.386719 13.378906 13.152344 13.578125 12.949219 C 13.773438 12.742188 14.003906 12.585938 14.261719 12.476562 C 14.523438 12.367188 14.792969 12.308594 15.074219 12.308594 C 15.351562 12.308594 15.621094 12.367188 15.882812 12.476562 C 16.140625 12.585938 16.371094 12.742188 16.570312 12.949219 C 16.765625 13.152344 16.921875 13.386719 17.027344 13.65625 C 17.136719 13.921875 17.1875 14.199219 17.1875 14.488281 Z M 17.1875 14.488281 " fill-opacity="1" fill-rule="nonzero"/><path fill="rgb(39.99939%, 39.99939%, 70.199585%)" d="M 15.074219 12.308594 L 15.175781 13.953125 L 15.882812 12.476562 L 15.367188 14.035156 L 16.570312 12.949219 L 15.511719 14.183594 L 17.027344 13.65625 L 15.589844 14.382812 L 17.1875 14.488281 L 15.589844 14.59375 L 17.027344 15.320312 L 15.511719 14.789062 L 16.570312 16.027344 L 15.367188 14.941406 L 15.882812 16.5 L 15.175781 15.023438 L 15.074219 16.664062 L 14.96875 15.023438 L 14.261719 16.5 L 14.777344 14.941406 L 13.574219 16.027344 L 14.632812 14.789062 L 13.117188 15.320312 L 14.554688 14.59375 L 12.957031 14.488281 L 14.554688 14.382812 L 13.117188 13.65625 L 14.632812 14.183594 L 13.574219 12.949219 L 14.777344 14.035156 L 14.261719 12.476562 L 14.96875 13.953125 Z M 15.074219 12.308594 " fill-opacity="1" fill-rule="nonzero"/><path fill="rgb(0%, 0%, 50.19989%)" d="M 15.777344 14.488281 C 15.777344 14.6875 15.707031 14.859375 15.570312 15 C 15.433594 15.140625 15.265625 15.214844 15.074219 15.214844 C 14.878906 15.214844 14.710938 15.140625 14.574219 15 C 14.4375 14.859375 14.367188 14.6875 14.367188 14.488281 C 14.367188 14.289062 14.4375 14.117188 14.574219 13.972656 C 14.710938 13.832031 14.878906 13.761719 15.074219 13.761719 C 15.265625 13.761719 15.433594 13.832031 15.570312 13.972656 C 15.707031 14.117188 15.777344 14.289062 15.777344 14.488281 Z M 15.777344 14.488281 " fill-opacity="1" fill-rule="nonzero"/></svg></button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Link 1</a>
+                  <a class="dropdown-item" href="#">Link 2</a>
+                  <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </div>
+            </div>
+            <div>
+                <button type="submit" class="btn text-light">Sign In</button>
+            </div>
+            <div>
+                <button type="submit" class="btn text-light">Returns and Orders</button>
+            </div>
+            <div>
+                <button type="button" class="btn text-light">Cart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16"> <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/> </svg></button>
+            </div>
+        </div>
+        <div id="bottom-nav" class="d-flex justify-content-around align-items-center text-light pt-2">
+            <div>
+                <i class='fas fa-chevron-left' style='font-size:26px; color: #fff;'></i>
+            </div>
+            <div>
+                <a href="#" class="text-decoration-none"><p class="text-white">Amazon miniTV</p></a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none"><p class="text-white">Sell</p></a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none"><p class="text-white">Best Sellers</p></a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none"><p class="text-white">Today's Deals</p></a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none"><p class="text-white">Mobiles</p></a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none"><p class="text-white">Costumer Services</p></a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none"><p class="text-white">Electronics</p></a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none"><p class="text-white">Trendings</p></a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none"><p class="text-white">Offers</p></a>
+            </div>
+            <div>
+                <i class='fas fa-chevron-right' style='font-size:26px; color: #fff;'></i>
+            </div>
+        </div>
+    </header>
+<section id="section1">
+  <div id="demo" class="carousel slide" style="z-index: -1;" data-ride="carousel">
+
+            <!-- Indicators -->
+      <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+              <li data-target="#demo" data-slide-to="4"></li>
+              <li data-target="#demo" data-slide-to="5"></li>
+              <li data-target="#demo" data-slide-to="6"></li>
+      </ul>
+          
+            <!-- The slideshow -->
+      <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="carousel1img1.jpg" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="carousel1img2.jpg" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="carousel1img3.jpg" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="carousel1img4.jpg" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="carousel1img5.jpg" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="carousel1img6.jpg" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="carousel1img7.jpg" alt="">
+              </div>
+      </div>
+          
+            <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+      </a>
+  </div>
+
+  <div class="d-flex p-4" style="background-color: lightgray;">
+  <div class="card m-2 p-2" style="width:400px;">
+    <h4 class="card-title text-center">Deals on smartphones that suits your budget</h4>
+    <img class="card-img-top img-fluid" src="phone.jpg" alt="" style="width: 200px; height: 280px; margin: auto;">
+    <div class="card-body">
+      <p class="card-text text-center">Budget | ₹10,000 onwards</p>
+      <a href="#" class="text-decoration-none text-center"><p>See More</p></a>
+    </div>
+  </div>
+
+  <div class="card m-2 p-2" style="width:400px;">
+    <h4 class="card-title text-center">Up to 60% off | Top offers on home appliances</h4>
+    <img class="card-img-top img-fluid" src="refrigerator.jpg" alt="" style="width: 200px; height: 280px; margin: auto;">
+    <div class="card-body">
+      <p class="card-text text-center">Refrigerators | Upto 60% off</p>
+      <a href="#" class="text-decoration-none text-center"><p>See More</p></a>
+    </div>
+  </div>
+
+  <div class="card m-2 p-2" style="width:400px;">
+    <h4 class="card-title text-center">Starting ₹199 | Shoes & handbags</h4>
+    <img class="card-img-top img-fluid" src="footwear.jpg" alt="" style="width: 200px; height: 280px; margin: auto;">
+    <div class="card-body">
+      <p class="card-text text-center">Men's Shoes</p>
+      <a href="#" class="text-decoration-none text-center"><p>See More</p></a>
+    </div>
+  </div>
+</div>
+
+<div class="d-flex p-4" style="background-color: lightgray;">
+  <div class="card m-2 p-2" style="width:400px;">
+    <h4 class="card-title text-center">Up to 70% off | Deals on Amazon Brands & more</h4>
+    <img class="card-img-top img-fluid" src="toys.jpg" alt="" style="width: 200px; height: 280px; margin: auto;">
+    <div class="card-body">
+      <p class="card-text text-center">Starting ₹85 | Toys and Games</p>
+      <a href="#" class="text-decoration-none text-center"><p>See More</p></a>
+    </div>
+  </div>
+
+  <div class="card m-2 p-2" style="width:400px;">
+    <h4 class="card-title text-center">Starting ₹349 | Festive deals on headphones</h4>
+    <img class="card-img-top img-fluid" src="headphones.jpg" alt="" style="width: 200px; height: 280px; margin: auto;">
+    <div class="card-body">
+      <p class="card-text text-center">Top Headsets from Oneplus, Samsung & More</p>
+      <a href="#" class="text-decoration-none text-center"><p>See More</p></a>
+    </div>
+  </div>
+
+  <div class="card m-2 p-2" style="width:400px;">
+    <h4 class="card-title text-center">Up to 50% off | Laptops, smartwatches & headphones</h4>
+    <img class="card-img-top img-fluid" src="smart watch.jpg" alt="" style="width: 200px; height: 280px; margin: auto;">
+    <div class="card-body">
+      <p class="card-text text-center">Collect your offer now</p>
+      <a href="#" class="text-decoration-none text-center"><p>See More</p></a>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section class="p-4 p-4" style="background-color: lightgray;">
+  <h2 class="text-center pt-4">Today's Deals</h2>
+  <a href="#" class="text-decoration-none text-center"><p>See More</p></a>
+
+        <div class="container-sm d-flex  justify-content-around">
+        <div class="card p-2 mt-3" style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/51trWgIqvbL._AC_SY200_.jpg" class="card-img-top" style="margin: auto;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-center">Exciting offers on Lexton Street Light</h5>
+      <button class="btn btn-danger" style="margin-right: 5rem; margin-left: 5rem;">₹699</button>
+    </div>
+  </div>
+  <div class="card p-2 mt-3" style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/71cF5caTObL._SL1176__AC_SY200_.jpg" class="card-img-top" style="margin: auto;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-center">Crazy deals on status door mats</h5>
+      <button class="btn btn-danger" style="margin-right: 5rem; margin-left: 5rem;">₹199</button>
+    </div>
+  </div>
+  <div class="card p-2 mt-3" style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/51Q6Qrh+zGL._AC_SY200_.jpg" class="card-img-top" style="margin: auto;" alt="...">
+    <div class="card-body">
+      <h5 class="card-title text-center">Best of BSB Home Bedsheets</h5>
+      <button class="btn btn-danger" style="margin-right: 5rem; margin-left: 5rem;">₹199</button>
+    </div>
+  </div>
+  </div>
+      
+        <div class="container-sm d-flex   justify-content-around">
+          <div class="card p-2 mt-3" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/61Tv5I7lj0L._AC_SY200_.jpg" class="card-img-top" style="margin: auto;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Diwali Lights for Home Decor</h5>
+              <button class="btn btn-danger" style="margin-right: 5rem; margin-left: 5rem;">₹599</button>
+            </div>
+          </div>
+          <div class="card p-2 mt-3" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/41cxgOxlbYL._AC_SY200_.jpg" class="card-img-top" style="margin: auto;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Electric Kettle (Silver with Black)</h5>
+              <button class="btn btn-danger" style="margin-right: 5rem; margin-left: 5rem;">₹599</button>
+            </div>
+          </div>
+          <div class="card p-2 mt-3" style="width: 18rem;">
+            <img src="https://m.media-amazon.com/images/I/61O9WD3MXYL._AC_SY200_.jpg" class="card-img-top" style="margin: auto;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Microwave Safe Bowl | Free Gifts</h5>
+              <button class="btn btn-danger" style="margin-right: 5rem; margin-left: 5rem;">₹399</button>
+            </div>
+          </div>
+      </div>
+
+        <div class="container-sm d-flex   justify-content-around">
+      <div class="card p-2 mt-3" style="width: 18rem;">
+        <img src="https://m.media-amazon.com/images/I/31ODgFm8VJL._AC_SY200_.jpg" class="card-img-top" style="margin: auto;" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Pigeon Cookers</h5>
+          <button class="btn btn-danger" style="margin-right: 5rem; margin-left: 5rem;">₹655</button>
+        </div>
+      </div>
+      <div class="card p-2 mt-3" style="width: 18rem;">
+        <img src="https://m.media-amazon.com/images/I/51yodwXgB8L._AC_SY200_.jpg" class="card-img-top" style="margin: auto;" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Rangoli Colour Powder</h5>
+          <button class="btn btn-danger" style="margin-right: 5rem; margin-left: 5rem;">₹149</button>
+        </div>
+      </div>
+      <div class="card p-2 mt-3" style="width: 18rem;">
+        <img src="https://m.media-amazon.com/images/I/410GLg7fZkL._AC_SY200_.jpg" class="card-img-top" style="margin: auto;" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Quartz Wall Clock</h5>
+          <button class="btn btn-danger" style="margin-right: 5rem; margin-left: 5rem;">₹379</button>
+        </div>
+      </div>
+      </div>
+</div>
+</section>
+<section>
+  <div class="container-fluid" style="background-color: white; border: 20px solid lightgray;">
+    <h2 class="text-center pt-3">Best Sellers in Clothing & Accessories</h2>
+    <div class="d-flex" id="clothing">
+    <div>
+      <img src="https://m.media-amazon.com/images/I/715A-GsmIGL._AC_SY200_.jpg" class="img-fluid m-4">
+    </div>
+    <div>
+      <img src="https://m.media-amazon.com/images/I/61XzMtVz3PL._AC_SY200_.jpg" class="img-fluid m-4">
+    </div>
+    <div>
+      <img src="https://m.media-amazon.com/images/I/51dZ19miAbL._AC_SY200_.jpg" class="img-fluid m-4">
+    </div>
+    <div>
+      <img src="https://m.media-amazon.com/images/I/61-M8rjGl0L._AC_SY200_.jpg" class="img-fluid m-4">
+    </div>
+    <div>
+      <img src="https://m.media-amazon.com/images/I/81W5YNzgDDL._AC_SY200_.jpg" class="img-fluid m-4">
+    </div>
+    <div>
+      <img src="https://m.media-amazon.com/images/I/71AEwEupFuL._AC_SY200_.jpg" class="img-fluid m-4">
+    </div>
+    <div>
+      <img src="https://m.media-amazon.com/images/I/61hHzoAOjzL._AC_SY200_.jpg" class="img-fluid m-4">
+    </div>
+    <div>
+      <img src="https://m.media-amazon.com/images/I/71ZOaLOUQtL._AC_SY200_.jpg" class="img-fluid m-4">
+    </div>
+    <div>
+      <img src="https://m.media-amazon.com/images/I/511hgf-vYOL._AC_SY200_.jpg" class="img-fluid m-4">
+    </div>
+  </div>
+  </div>
+</section>
+<div class="d-flex flex-column align-items-center">
+  <p>See personalized recommendations</p>
+  <button class="btn btn-warning">Sign in</button>
+  <p>New customer? <a href="#">Start here.</a></p>
+</div>
+<footer>
+  <div class="d-flex text-white justify-content-around p-4">
+       <div>
+        <p>Get to Know Us</p>
+        <ul>
+          <li><a href="#">About Us</a> </li>
+          <li><a href="#">Careers</a> </li>
+          <li><a href="#">Press Releases</a> </li>
+          <li><a href="#">Amazon Science</a> </li>
+        </ul>
+       </div>
+       <div>
+        <p>Connect with Us</p>
+        <ul>
+          <li><a href="#">Facebook</a> </li>
+          <li><a href="#">Twitter</a> </li>
+          <li><a href="#">Instagram</a> </li>
+        </ul>
+       </div>
+       <div>
+        <p>Make Money with Us</p>
+        <ul>
+          <li><a href="#">Sell on Amazon</a> </li>
+          <li><a href="#">Sell under Amazon Accelerator</a> </li>
+          <li><a href="#">Protect and Build Your Brand</a> </li>
+          <li><a href="#">Amazon Global Selling</a> </li>
+          <li><a href="#">Become an Affiliate</a> </li>
+          <li><a href="#">Fulfilment by Amazon</a> </li>
+          <li><a href="#">Advertise Your Products</a> </li>
+          <li><a href="#">Amazon Pay on Merchants</a> </li>
+        </ul>
+       </div>
+       <div>
+        <p>Let Us Help You</p>
+        <ul>
+          <li><a href="#">COVID-19 and Amazon</a> </li>
+          <li><a href="#">Your Account</a> </li>
+          <li><a href="#">Returns Centre</a> </li>
+          <li><a href="#">100% Purchase Protection</a> </li>
+          <li><a href="#">Amazon App Download</a> </li>
+          <li><a href="#">Help</a> </li>
+        </ul>
+       </div>
+  </div>
+  <hr>
+  <div class="d-flex justify-content-center">
+  <img src="amazon logo.png" alt="" class="img-fluid" width="60px">
+</div>
+  <div class="d-flex justify-content-center">
+    <ul class="list-group list-group-horizontal">
+
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Australia</a></li>
+     
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Brazil</a></li>
+   
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Canada</a></li>
+ 
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">China</a></li>
+  
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">France</a></li>
+   
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Germany</a></li>
+    
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Italy</a></li>
+    
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Japan</a></li>
+    
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Mexico</a></li>
+    
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Netherlands</a></li>
+    </ul>
+    </div>
+    <div class="d-flex justify-content-center">
+    <ul class="list-group list-group-horizontal">
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Poland</a></li>
+    
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Singapore</a></li>
+    
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Spain</a></li>
+   
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Turkey</a></li>
+    
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">United Arab Emirates</a></li>
+    
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">United Kingdom</a></li>
+   
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">United States</a></li>
+    </ul>   
+  </div>
+  <div style="background-color: #131921;" class="d-flex justify-content-center">
+    <ul class="list-group list-group-horizontal">
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Conditions of Use & Sale</a></li>
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Privacy Notice</a></li>
+      <li class="list-group-item m-2" style="background: none; border: none;"><a href="#">Interest-Based Ads</a></li>
+    </ul>
+  </div>
+  <div class="d-flex justify-content-center text-white" style="background-color: #131921;">
+  <p>&copy; 1996-2023, Amazon.com, Inc. or its affiliates</p>
+</div>
+</footer>
+</body>
+</html>
